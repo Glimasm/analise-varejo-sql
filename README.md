@@ -10,13 +10,14 @@ Investigar a erosão de margem na categoria de **Móveis (Furniture)** e identif
   
 - **Python (Pandas, Seaborn, Matplotlib):** Análise exploratória e visualização.
   
-- **Dataset:** [Sample - Superstore](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) — dataset público amplamente utilizado em projetos de análise de varejo.
+- **Dataset:** [Sample - Superstore](https://www.kaggle.com/datasets/divyjain28/superstore-sales) — dataset público amplamente utilizado em projetos de análise de varejo.
     
 ## 📁 Estrutura do Repositório
 
 ```
 analise-varejo-sql/
 ├── data/                        # Dataset original (.csv)
+│   ├── sample_-_superstore.csv
 ├── sql_query/                   # Queries SQL organizadas por análise
 │   ├── lucro_total_categoria.sql
 │   ├── lucro_subcategoria_furniture.sql
