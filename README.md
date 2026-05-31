@@ -17,7 +17,7 @@ Investigar a erosão de margem na categoria de **Móveis (Furniture)** e identif
 ```
 analise-varejo-sql/
 ├── data/                        # Dataset original (.csv)
-│   ├── sample_-_superstore.csv
+│   └── sample_-_superstore.csv
 ├── sql_query/                   # Queries SQL organizadas por análise
 │   ├── lucro_total_categoria.sql
 │   ├── lucro_subcategoria_furniture.sql
@@ -26,6 +26,8 @@ analise-varejo-sql/
 ├── notebooks/                   # Análise exploratória em Python
 │   └── sample_-_superstore.ipynb
 └── img/                         # Gráficos gerados
+│   ├── grafico_desconto_dispersao.png
+│   └── grafico_lucro_subcategory.png
 ```
 
 ## 🔎 Análise Exploratória (Insights Principais)
